@@ -1,0 +1,33 @@
+[
+    {
+        "name": "web",
+        "working_dir": "/home/jason/Projects/music-manager/clients/web",
+        "binary": "yarn",
+        "color": "blue",
+        "args": [
+            "start"
+        ]
+    },
+    {
+        "name": "task-runner",
+        "working_dir": "/home/jason/Projects/music-manager/server",
+        "binary": "cargo",
+        "color": "green",
+        "args": [
+            "watch",
+            "-x",
+            "run --bin task-runner"
+        ]
+    },
+    {
+        "name": "api",
+        "working_dir": "/home/jason/Projects/music-manager/server",
+        "binary": "cargo",
+        "color": "magenta",
+        "args": [
+            "watch",
+            "-x",
+            "run --bin api"
+        ]
+    }
+]
